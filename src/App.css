@@ -44,7 +44,13 @@
   margin-right: 30px;
   margin-top: 5px;
   
-  /* background-color: #c3dce8; */
+
+}
+.nib{
+  margin-top: 30px;
+}
+.cnb{
+  margin-right: 1%;
 }
 .navbar-brand{
   font-weight: bold;

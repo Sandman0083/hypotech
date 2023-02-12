@@ -8,11 +8,12 @@ import { AiFillDatabase } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import Footer from "./Footer"
 import { BsFillTelephoneFill } from "react-icons/bs";
+import Nav2 from "./Nav2";
 
 function Body(){
     return(
         <div>
-        <Navbar />
+        <Nav2 />
         {/* top image */}
         <div className="mainbody" >
             <h1 className="bt">Transforming how technology works</h1>
