@@ -4,12 +4,13 @@ import { MdComputer } from "react-icons/md";
 import { AiOutlineCloud } from "react-icons/ai";
 import { AiFillDatabase } from "react-icons/ai";
 import Footer from "./Footer"
-import Navbar from './Navbar';
+import Nav2 from "./Nav2";
+import {Link} from "react-router-dom";
 
 function Services(){
     return(
         <div>
-        <Navbar />
+        <Nav2 />
              <div className="bg-light serclass">
          <h1 className="serone">Services provided by us</h1>
          
@@ -58,6 +59,8 @@ function Services(){
             </div>
            
             </div> 
+            <h4 className='pd'>For pricing details please call or drop an email. We will get back to you soon.</h4>
+           <Link to="/contact"> <button type="button" class="btn btn-primary mbt">Contact Us</button></Link>
      </div>
      <Footer />
         </div>

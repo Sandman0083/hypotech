@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+import Nav2 from "./Nav2";
 function About(){
     return(
         <div>
-        <Navbar />
-            <div className="bh-light">
+        <Nav2 />
+            <div className="bh-light cp lt">
     <div>
     <h1 className="serone">Who are we</h1> 
     <h5 className="ccr" >
