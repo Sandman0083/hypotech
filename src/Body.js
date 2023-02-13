@@ -9,6 +9,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import Footer from "./Footer"
 import { BsFillTelephoneFill } from "react-icons/bs";
 import Nav2 from "./Nav2";
+import {Link} from "react-router-dom";
 
 function Body(){
     return(
@@ -26,10 +27,10 @@ function Body(){
 
      <div>
      <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-sm-12">
             <img className="fm mr rounded-circle" src="https://media.istockphoto.com/id/985559164/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?b=1&s=170667a&w=0&k=20&c=mSeYIP-hBBRhXY_XCjy07Tcj1zEpegseclzX9nJ-P1s="></img>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-sm-12">
             <div className="mmr">
             <h1 >How we deliver a better path forward</h1>
             </div>
@@ -48,7 +49,7 @@ function Body(){
          <h1 className="serone">Services provided by us</h1>
          
          <div className="row">
-         <div className="col-lg-3 col-md-6 col-sm-12 fc">
+         <div className="col-lg-3 col-md-6 col-sm-6 fc">
                 <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
                 <MdComputer className="card-img-top ir" />
                            <div className="card-body">
@@ -60,7 +61,7 @@ function Body(){
             </div>
 
 
-            <div className="col-lg-3 col-md-6 col-sm-12 sc">
+            <div className="col-lg-3 col-md-6 col-sm-6 sc">
                 <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
                 <VscDeviceMobile className="card-img-top ir" />
                            <div className="card-body">
@@ -70,7 +71,7 @@ function Body(){
                </div>
             </div>
          
-         <div className="col-lg-3 col-md-6 col-sm-12 fc">
+         <div className="col-lg-3 col-md-6 col-sm-6 fc">
                 <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
                 <AiOutlineCloud className="card-img-top ir" />
                            <div className="card-body">
@@ -81,7 +82,7 @@ function Body(){
             </div>
 
 
-            <div className="col-lg-3 col-md-6 col-sm-12 sc">
+            <div className="col-lg-3 col-md-6 col-sm-6 sc">
                 <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
                 <AiFillDatabase className="card-img-top ir" />
                            <div className="card-body">
@@ -92,6 +93,8 @@ function Body(){
             </div>
            
             </div> 
+            <h4 className='pd'>For pricing details please call or drop an email. We will get back to you soon.</h4>
+           <Link to="/contact"> <button type="button" class="btn btn-primary mbt">Contact Us</button></Link>
      </div>
      {/* About us */}
 <div className="bh-light">
@@ -106,9 +109,7 @@ function Body(){
      <div>
         <div className="bg-white">
       <h1 className="serone">Start growing with us</h1>
-      <h3 className="sertwo" >Contact us </h3>
-      <h4 className="ci"><AiOutlineMail /> contact.superhypotechsolution@gmail.com</h4>
-      <h4 className="ci"><BsFillTelephoneFill /> 7667987818</h4>
+       <Link to="/contact"> <button type="button" class="btn btn-primary mbt">Contact Us</button></Link>
 
         </div>
      </div>
