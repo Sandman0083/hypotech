@@ -15,7 +15,7 @@ function Contact(){
       <h3 className="sertwo" >Contact us </h3>
       {/* <h4 className="ci"><AiOutlineMail /><a href = "mailto:  contact.superhypotechsolution@gmail.com"> contact.superhypotechsolution@gmail.com</a></h4> */}
       {/* <h4 className="ci"><BsFillTelephoneFill /><a href="tel:+917667987818">7667987818</a></h4> */}
-      <a href = "mailto:  contact.superhypotechsolution@gmail.com"><h4 className="ci"><AiOutlineMail /> contact.superhypotechsolution@gmail.com</h4></a>
+      <a href = "mailto:  support@superhypotech.in"><h4 className="ci"><AiOutlineMail /> support@superhypotech.in </h4></a>
       <a href="tel:+917667987818"><h4 className="ci"><BsFillTelephoneFill />7667987818</h4></a>
 
         </div>
