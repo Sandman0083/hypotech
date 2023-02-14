@@ -18,10 +18,9 @@ function Body(){
         {/* top image */}
         <div className="mainbody" >
             <h1 className="bt">Transforming how technology works</h1>
-            <pre className="ct">
-            We create high-tech solutions to solve
-             complex business operational challenges.
-            </pre>
+            <p className="bst">
+            We create high-tech solutions to solve complex business operational challenges.
+            </p>
         </div>
      {/* how we provide path */}
 
@@ -48,12 +47,13 @@ function Body(){
      <div className="bg-light serclass">
          <h1 className="serone">Services provided by us</h1>
          
-         <div className="row">
-         <div className="col-lg-3 col-md-6 col-sm-6 fc">
-                <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
+         <div className="row sercard ">
+         <div className="col-lg-3 col-md-6 col-sm-12 fc">
+                <div className="card" style={{"width" : "22rem", "height": "25rem"}}>
                 <MdComputer className="card-img-top ir" />
+                <hr></hr>
                            <div className="card-body">
-                               <h5 className="card-title ct">Web Applications</h5>
+                               <h5 className="card-title">Web Applications</h5>
                                     <p className="card-text">Customised Web Applications for personal business with backend app and connected with database.</p>
                           </div>
                 
@@ -61,32 +61,35 @@ function Body(){
             </div>
 
 
-            <div className="col-lg-3 col-md-6 col-sm-6 sc">
-                <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
+            <div className="col-lg-3 col-md-6 col-sm-12 sc">
+                <div className="card" style={{"width" : "22rem", "height": "25rem"}}>
                 <VscDeviceMobile className="card-img-top ir" />
+                <hr></hr>
                            <div className="card-body">
-                               <h5 className="card-title ct">Mobile Applications</h5>
+                               <h5 className="card-title">Mobile Applications</h5>
                                     <p className="card-text">Customised Mobile Applications for personal business connected with database.</p>
                           </div>
                </div>
             </div>
-         
-         <div className="col-lg-3 col-md-6 col-sm-6 fc">
-                <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
+            
+         <div className=" col-lg-3 col-md-6 col-sm-12 fc">
+                <div className="card" style={{"width" : "22rem", "height": "25rem"}}>
                 <AiOutlineCloud className="card-img-top ir" />
+                <hr></hr>
                            <div className="card-body">
-                               <h5 className="card-title ct">Cloud Services</h5>
+                               <h5 className="card-title">Cloud Services</h5>
                                     <p className="card-text">Cloud solutions for hosting web apps, mobile apps, cloud database</p>
                           </div>
                </div>
             </div>
 
 
-            <div className="col-lg-3 col-md-6 col-sm-6 sc">
-                <div className="card" style={{"width" : "16rem", "height": "25rem"}}>
+            <div className=" col-lg-3 col-md-6 col-sm-12 sc">
+                <div className="card" style={{"width" : "22rem", "height": "25rem"}}>
                 <AiFillDatabase className="card-img-top ir" />
+                <hr></hr>
                            <div className="card-body">
-                               <h5 className="card-title ct">Database</h5>
+                               <h5 className="card-title">Database</h5>
                                     <p className="card-text">Connected databse operable from user interface for data manupulation</p>
                           </div>
                </div>

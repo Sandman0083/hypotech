@@ -7,7 +7,7 @@ function Nav2(){
             <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white fixed-top">
   <div class="container-fluid">
     <Link className='navbar-brand' to="/"><a class="navbar-brand">
-      <img src={img1} alt="" width="30" height="28" class="d-inline-block align-text-top" />SuperHypotech</a></Link>
+      <img src={img1} alt="" width="30" height="28" class="d-inline-block align-text-top" /> SuperHypotech</a></Link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
