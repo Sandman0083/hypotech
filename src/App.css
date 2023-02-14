@@ -98,9 +98,9 @@ background-color: #61dafb;
 }
 
 .fm{
-  height: 450px;
-  margin-left: 18%;
-  width: 450px;
+  height: auto;
+  /* margin-left: 5%; */
+  max-width: 100%;
 }
 
 .mr{
@@ -150,6 +150,8 @@ background-color: #61dafb;
   
   padding: 2%;
   margin-top: 3%;
+  
+ 
 }
 
 .sc{

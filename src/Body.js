@@ -93,11 +93,11 @@ function Body(){
             </div>
            
             </div> 
-            <h4 className='pd'>For pricing details please call or drop an email. We will get back to you soon.</h4>
-           <Link to="/contact"> <button type="button" class="btn btn-primary mbt">Contact Us</button></Link>
+           
+          
      </div>
      {/* About us */}
-<div className="bh-light">
+<div className="bg-light">
     <div>
     <h1 className="serone">Who are we</h1> 
     <h5 className="ccr" >
@@ -109,6 +109,7 @@ function Body(){
      <div>
         <div className="bg-white">
       <h1 className="serone">Start growing with us</h1>
+      <h4 className='pd'>For pricing details please call or drop an email. We will get back to you soon.</h4>
        <Link to="/contact"> <button type="button" class="btn btn-primary mbt">Contact Us</button></Link>
 
         </div>
