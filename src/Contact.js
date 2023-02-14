@@ -10,7 +10,7 @@ function Contact(){
         <div>
         <Nav2 />
              <div>
-        <div className="bg-white cp">
+        <div className="bg-white cp ">
         <h1 className="serone">Contact us</h1>
       <h3 className="sertwo" >Contact us </h3>
       {/* <h4 className="ci"><AiOutlineMail /><a href = "mailto:  contact.superhypotechsolution@gmail.com"> contact.superhypotechsolution@gmail.com</a></h4> */}
