@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -38,104 +37,103 @@
   }
 }
 
-.nib{
+.nib {
   margin-top: 30px;
 }
-.ni{
- /* margin-left: 68%; */
- margin-left: auto;
+.ni {
+  /* margin-left: 68%; */
+  margin-left: auto;
 }
-.cnb{
+.cnb {
   margin-right: 1%;
 }
-.navbar-brand{
+.navbar-brand {
   font-weight: bold;
- font-family: cursive;
- font-stretch: extra-expanded;
- padding-left: 3%;
-
+  font-family: cursive;
+  font-stretch: extra-expanded;
+  padding-left: 3%;
 }
 
-
-.noitem{
+.noitem {
   font-family: cursive;
   font-weight: 700;
   /* margin: 2%; */
- 
 }
 
-.mainNav{
-margin-right: 60px;
-background-color: #61dafb;
+.mainNav {
+  margin-right: 60px;
+  background-color: #61dafb;
 }
 
-.mainbody{
+.mainbody {
   margin-top: 40px;
-  
+
   padding: 2%;
-  background-image: url('pic5.jpg');
+  background-image: url("pic5.jpg");
   color: rgb(0, 2, 2);
   height: 500px;
   width: auto;
 }
 
-.cp{
+.cp {
   margin-top: 5%;
 }
 
-.bt{
+.bt {
   padding: 2%;
-  
+
   margin-top: 300px;
- 
+
   margin-left: 10px;
 }
 
-.ct{
+.ct {
   font-family: cursive;
   font-size: larger;
 }
-.bst{
+.bst {
   font-size: large;
 }
 
-.fm{
+.fm {
   height: auto;
   /* margin-left: 5%; */
   max-width: 100%;
 }
 
-.mr{
+.mr {
   margin-top: 18%;
 }
 
-.mmr{
+.mmr {
   margin-top: 18%;
   margin-left: 2%;
   color: rgb(123, 4, 159);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.ccr{
+.ccr {
   margin-left: 2%;
   margin-top: 3%;
   text-align: left;
   font-weight: 600;
 }
 
-.acr{
-  text-align: left; 
+.acr {
+  text-align: left;
   margin-left: 2%;
   margin-top: 10%;
   font-weight: 600;
 }
 
-.serclass{
+.serclass {
   margin-top: 50px;
 }
 
-.serone{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.serone {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding-top: 50px;
   text-align: center;
   font-weight: 900;
@@ -143,68 +141,72 @@ background-color: #61dafb;
   padding-bottom: 40px;
 }
 
-.ir{
+.ir {
   height: 15rem;
   width: 15rem;
 }
 
-.fc{
-  
+.fc {
   padding: 0.5%;
-  margin: 10%;
-  
- 
-}
-
-.sc{
-  padding: 0.5%;
-  
   margin: 10%;
 }
 
-.sercard{
+.sc {
+  padding: 0.5%;
+
+  margin: 10%;
+}
+
+.sercard {
   margin: 7% 15%;
   padding: 1%;
   margin-top: 1%;
 }
 
-.foot{
+.foot {
   text-align: center;
   padding-bottom: 2%;
 }
 
-.ct{
+.ct {
   color: rgba(3, 0, 6, 0.4);
   font-weight: 700;
 }
-.sertwo{
+.sertwo {
   padding-top: 50px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-left: 90px;
   color: rgb(9, 79, 79);
 }
 
-.ci{
+.ci {
   margin-left: 120px;
   padding: 1%;
 }
 
-.nb{
+.nb {
   color: rgb(123, 4, 159);
 }
 
-.mn{
+.mn {
   background-color: #61dafb;
 }
-.lt{
+.lt {
   padding-bottom: 10%;
   margin-bottom: 20px;
 }
-.pd{
+.pd {
   color: rgb(241, 65, 65);
   text-align: center;
 }
-.mbt{
+.mbt {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: auto;
+}
+.newbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
