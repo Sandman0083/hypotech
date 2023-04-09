@@ -62,9 +62,10 @@ function Body() {
       <div className="bg-light serclass">
         <h1 className="serone">Services provided by us</h1>
 
-        <div className="row sercard ">
-          <div className="col-lg-3 col-md-6 col-sm-12 fc">
-            <div className="card" style={{ width: "22rem", height: "25rem" }}>
+        {/* <div className="row sercard "> */}
+        <div className="row_design ">
+          <div className="main_rows">
+            <div className="card" >
               <MdComputer className="card-img-top ir" />
               <hr></hr>
               <div className="card-body">
@@ -77,8 +78,8 @@ function Body() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-sm-12 sc">
-            <div className="card" style={{ width: "22rem", height: "25rem" }}>
+          <div className="main_rows">
+            <div className="card" >
               <VscDeviceMobile className="card-img-top ir" />
               <hr></hr>
               <div className="card-body">
@@ -90,9 +91,10 @@ function Body() {
               </div>
             </div>
           </div>
-
-          <div className=" col-lg-3 col-md-6 col-sm-12 fc">
-            <div className="card" style={{ width: "22rem", height: "25rem" }}>
+        </div>
+        <div className="row_design">
+          <div className="main_rows ">
+            <div className="card" >
               <AiOutlineCloud className="card-img-top ir" />
               <hr></hr>
               <div className="card-body">
@@ -105,8 +107,8 @@ function Body() {
             </div>
           </div>
 
-          <div className=" col-lg-3 col-md-6 col-sm-12 sc">
-            <div className="card" style={{ width: "22rem", height: "25rem" }}>
+          <div className="main_rows ">
+            <div className="card" >
               <AiFillDatabase className="card-img-top ir" />
               <hr></hr>
               <div className="card-body">
